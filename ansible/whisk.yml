@@ -33,6 +33,7 @@
 - hosts: edge
   roles:
   - nginx
+  - cli
 
 - hosts: ansible
   tasks:
