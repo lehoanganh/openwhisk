@@ -8,5 +8,5 @@ RUN apt-get update --fix-missing && \
   apt-get -y install python-distribute python-pip && \
   apt-get clean
 
-ADD . /cli
-RUN cd /cli && python setup.py sdist
+ADD build/tmp /cli
+CMD cd /cli && python setup.py sdist
