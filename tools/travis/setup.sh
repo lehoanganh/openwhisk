@@ -18,5 +18,5 @@ pip install --user jsonschema
 sudo apt-get install -yqq software-properties-common
 sudo apt-add-repository -y ppa:ansible/ansible
 sudo apt-get update -yqq
-sudo apt-get install -y ansible=2.1.0.0-1*
+sudo apt-get install -y ansible=2.1.1.0-1*
 
