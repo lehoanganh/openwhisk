@@ -13,7 +13,7 @@ cd $ROOTDIR/ansible
 
 ANSIBLE_CMD="ansible-playbook -i environments/travis"
 
-$ANSIBLE_CMD setup.yml
+$ANSIBLE_CMD -vvvv setup.yml
 $ANSIBLE_CMD prereq.yml
 $ANSIBLE_CMD couchdb.yml
 $ANSIBLE_CMD initdb.yml
